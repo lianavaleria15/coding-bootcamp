@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Classes</title>
+    <style>
+      button {
+        background-color: cadetblue;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 4px;
+        box-shadow: 5px 5px 5px #4d4d4d;
+      }
+
+      button:hover {
+        font-weight: bold;
+        color: black;
+      }
+
+      p {
+        color: red;
+      }
+
+      p:last-child {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <button>Hover over me</button>
+    <header>
+      <p>Para 1</p>
+      <p>Para 2</p>
+    </header>
+  </body>
+</html>

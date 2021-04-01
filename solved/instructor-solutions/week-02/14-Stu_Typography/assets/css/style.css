@@ -1,0 +1,113 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #13293d;
+  color: #fff;
+}
+
+h1,
+h2,
+h3 {
+  font-family: serif;
+}
+
+h1 {
+  font-size: 3.2rem;
+  margin: 2rem;
+}
+
+h2 {
+  font-size: 2.8rem;
+  margin: 2rem 0;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 30rem;
+}
+
+nav a {
+  color: #b9c6ae;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex: 1 1 0;
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+
+section {
+  flex: 1 1 0;
+  padding: 0 5rem;
+}
+
+article {
+  border-bottom: 0.01rem solid #d8a47f;
+}
+
+article p {
+  margin: 2rem 0;
+}
+
+article ul {
+  margin: 0 5rem;
+  list-style: square;
+  font-size: 1.4rem;
+}
+
+aside {
+  padding: 0 2rem;
+  width: 25%;
+}
+
+input,
+button {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem;
+  background-color: #13293d;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  header,
+  main {
+    flex-direction: column;
+  }
+
+  section {
+    padding-right: 0;
+  }
+
+  aside {
+    width: 100%;
+    text-align: center;
+  }
+}
